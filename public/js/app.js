@@ -9,7 +9,7 @@ submit.addEventListener('click', () =>{
       })
       .then(function (response) {
         console.log(response.data.id);
-        window.location.replace("http://localhost:2003/"+ response.data.id);
+        window.location.replace("https://xhastebin-clone.herokuapp.com/"+ response.data.id);
 
       })
       .catch(function (error) {
